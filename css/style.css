@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+.intro {
+  height: 100vh;
+  background-color: #343a40;
+}
+.contact {
+  height: 100vh;
+  background-color: hsla(210, 10%, 23%, 0.98);
+}
+.services {
+  height: 100vh;
+  background-color: #343a40;
+}
+
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-radius: 0 10px 10px 0;
+  width: 20%;
+  background: #feac5e;
+  background: -webkit-linear-gradient(
+    to right,
+    #c779d0,
+    #feac5e
+  ); 
+  background: linear-gradient(
+    to right,
+    #c779d0,
+    #feac5e
+  );
+}
