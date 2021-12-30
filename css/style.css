@@ -29,14 +29,7 @@ html {
   border-radius: 0 10px 10px 0;
   width: 20%;
   background: #feac5e;
-  background: -webkit-linear-gradient(
-    to right,
-    #c779d0,
-    #feac5e
-  ); 
-  background: linear-gradient(
-    to right,
-    #c779d0,
-    #feac5e
-  );
+  background: -webkit-linear-gradient(to right, #c779d0, #feac5e);
+  background: linear-gradient(to right, #c779d0, #feac5e);
+  transition: width 0.17s;
 }
